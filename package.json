@@ -1,0 +1,51 @@
+{
+  "name": "@koorie/website",
+  "version": "1.0.0",
+  "description": "Koorie server WebSite",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "ks build",
+    "serve:http": "koorie spin-up --on-port=80 --at-address=10.0.0.134 --ease --log-everything --to-index-html",
+    "serve:https": "koorie spin-up --on-port=443 --https --at-address=10.0.0.134 --ease --log-everything --to-index-html"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "koorie",
+    "solidjs",
+    "solid",
+    "web",
+    "site",
+    "website",
+    "web-site",
+    "web-site"
+  ],
+  "devDependencies": {
+    "@koorie/solidjs": "^1.0.0"
+  },
+  "dependencies": {
+    "koorie": "^2.0.28",
+    "solid-js": "^1.7.6",
+    "@solidjs/router": "^0.8.2",
+    "solid-start": "^0.2.26"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/simonedelpopolo/projects/koorie#category-CONTRIBUTE"
+  },
+  "author": {
+    "name": "Simone Del Popolo",
+    "email": "simonedelpopolo@outlook.com",
+    "url": "https://github.com/simonedelpopolo"
+  },
+  "homepage": "https://github.com/koorie/website#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koorie/website.git"
+  },
+  "bugs": {
+    "email": "simonedelpopolo@outlook.com",
+    "url": "https://github.com/koorie/website/issues"
+  }
+}

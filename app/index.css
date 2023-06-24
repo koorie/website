@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "anonymous-pro", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "anonymous-pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}

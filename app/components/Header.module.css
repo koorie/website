@@ -1,0 +1,28 @@
+header.grid {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px;
+    justify-items: center;
+    align-items: center;
+    font-family: "anonymous-pro", monospace;
+    border: 1px solid red;
+}
+.grid>span{
+    border: 1px solid red;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+a.header_link{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(0,0,15,1);
+}
+
+a.header_link:visited{
+    color: rgba(0,0,15,1);
+}
+
+a.header_link:hover{
+    color: rgba(92, 91, 91, 1);
+}
