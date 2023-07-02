@@ -1,16 +1,17 @@
-import styles from "./Home.module.css"
+import { Component } from 'solid-js'
+import styles from "./css/Home.module.css"
 import Header from "./Header"
 import logo from "../logo.svg"
 
-export default function Home() {
+const Home: Component = () => {
     return (
-        <div className={styles.Home}>
+        <div class={styles.Home}>
             <Header></Header>
-            <main className={styles.main}>
-                <img src={logo} className={styles.logo} alt="logo"/>
-                <p className={styles.text}>
+            <main class={styles.main}>
+                <img src={logo} class={styles.logo} alt="logo"/>
+                <p class={styles.text}>
                     <a
-                        className={styles.text}
+                        class={styles.text}
                         href="https://github.com/koorie"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -24,3 +25,4 @@ export default function Home() {
         </div>
     )
 }
+ export default Home

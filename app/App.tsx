@@ -1,11 +1,12 @@
 import { Route, Routes, Router } from "@solidjs/router"
+import { Component } from 'solid-js'
 import Home from "./components/Home"
 import API from "./components/API"
 import SourceCode from "./components/SourceCode"
 import Donate from "./components/Donate"
 import NotFound from "./components/404";
 
-export default function App() {
+const App: Component = () => {
   return (
     <>
        <Router>
@@ -21,3 +22,4 @@ export default function App() {
     </>
   )
 }
+export  default App

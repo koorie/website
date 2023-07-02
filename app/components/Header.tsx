@@ -1,5 +1,7 @@
-import styles from './Header.module.css'
-export default function Header(){
+import styles from './css/Header.module.css'
+import type { Component } from 'solid-js';
+
+const Header: Component = () =>{
 
     return <header class={styles.grid}>
         <span><a class={styles.header_link} href={"/"}> home</a></span>
@@ -8,3 +10,5 @@ export default function Header(){
         <span><a class={styles.header_link} href={"donate.html"}>donate</a></span>
     </header>
 }
+
+export default Header

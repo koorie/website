@@ -22,12 +22,14 @@
     "web-site"
   ],
   "devDependencies": {
-    "@koorie/solidjs": "^1.0.0"
+    "@koorie/solidjs": "^1.0.1",
+    "solid-devtools": "^0.27.3",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
-    "koorie": "^2.0.28",
-    "solid-js": "^1.7.6",
     "@solidjs/router": "^0.8.2",
+    "koorie": "^2.0.30",
+    "solid-js": "^1.7.7",
     "solid-start": "^0.2.26"
   },
   "funding": {
